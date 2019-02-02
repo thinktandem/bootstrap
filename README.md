@@ -2,7 +2,7 @@
 
 The built assets with popper.js for Drupal 8 composer install
 
-To use in your theme, make stable your base theme and add this into your libraries yml
+To use in your theme, add this into your libraries yml
 
 ```yaml
 bootstrap:
