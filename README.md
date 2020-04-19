@@ -14,6 +14,7 @@ bootstrap:
     ../../../libraries/bootstrap/js/bootstrap.min.js: {}
   dependencies:
     - core/jquery
+    - your_theme/popper
 
 popper:
   version: 1.14.7
@@ -21,4 +22,12 @@ popper:
     ../../../libraries/bootstrap/js/popper.min.js: {}
   dependencies:
     - core/jquery
+```
+
+In your theme.info.yml
+
+```yaml
+libraries:
+- your_theme/popper
+- your_theme/bootstrap
 ```
