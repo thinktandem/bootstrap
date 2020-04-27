@@ -1,4 +1,4 @@
-# Bootstrap 4.3.1
+# Bootstrap 4.4.1
 
 The built assets with popper.js for Drupal 8 composer install
 
@@ -6,7 +6,7 @@ To use in your theme, add this into your libraries yml
 
 ```yaml
 bootstrap:
-  version: 4.3.1
+  version: 4.4.1
   css:
     component:
       ../../../libraries/bootstrap/css/bootstrap.min.css: {}
@@ -17,7 +17,7 @@ bootstrap:
     - your_theme/popper
 
 popper:
-  version: 1.14.7
+  version: 1.16.0
   js:
     ../../../libraries/bootstrap/js/popper.min.js: {}
   dependencies:
